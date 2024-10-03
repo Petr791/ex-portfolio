@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: normal;
+    src: local('IBM Plex Mono'), url('/fonts/IBMPlexMono-Regular.woff2') format('woff2'), url('/fonts/IBMPlexMono-Regular.woff') format('woff'), url('/fonts/IBMPlexMono-Regular.ttf') format('ttf'), url('/fonts/AnyConv.com__IBMPlexMono-Regular.eot') format('eot');
+}
+
+@font-face {
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: bold;
+    src: local('IBM Plex Mono'), url('/fonts/IBMPlexMono-Bold.woff2') format('woff2'), url('/fonts/IBMPlexMono-Bold.woff') format('woff'), url('/fonts/IBMPlexMono-Bold.ttf') format('ttf'), url('/fonts/AnyConv.com__IBMPlexMono-Bold.eot') format('eot');
+}
+
+@font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Manrope'), url('/fonts/Manrope-Regular.woff2') format('woff2'), url('/fonts/Manrope-Regular.woff') format('woff'), url('/fonts/Manrope-Regular.ttf') format('ttf'), url('/fonts/Manrope-Regular.eot') format('eot');
+}
