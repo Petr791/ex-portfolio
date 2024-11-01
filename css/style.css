@@ -176,7 +176,7 @@ a {
 }
 
 .projects-item {
-    position: relative;
+    /*  position: relative; */
     border-radius: 30px;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
@@ -193,8 +193,8 @@ a {
 
 .projects-item__link {
     width: 100%;
-    /* height: 100%; */
     height: 550px;
+    position: relative;
     display: block;
 }
 
