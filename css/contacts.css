@@ -1,0 +1,197 @@
+/* @section contacts */
+
+.contacts {
+    /* margin-bottom: 150px; */
+    margin-bottom: 10px;
+    padding-top: 100px;
+    height: 717px;
+    border-radius: 30px;
+    background-image: url('../img/contacts/contacts-bg_9.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: 100% 50%;
+    /* background-size: contain; */
+    /* background-position: right; */
+    background-color: #191C19;
+}
+
+.contacts__content {
+    width: 567px;
+}
+
+.contacts__title {
+    margin-bottom: 60px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    color: #ffffff;
+}
+
+.contacts-form {}
+
+.contacts-form__input {
+    margin-bottom: 26px;
+    padding: 16px 40px 15px;
+    /*margin-left: -2px;  */
+    display: block;
+    width: 100%;
+    border-radius: 100px;
+    border: none;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #ffffff;
+    background-color: #3B3D3B;
+    -webkit-appearance: none;
+}
+
+.contacts-form__input:last-child {
+    margin-bottom: 0;
+}
+
+.contacts-form__input:focus {
+    outline: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #ffffff !important;
+    caret-color: #ffffff;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #3B3D3B inset !important;
+    color: #ffffff;
+}
+
+.contacts-form__input::placeholder {
+    color: #ffffff;
+}
+
+.contacts-form__btn {
+    /* margin-top: 60px; */
+    margin-top: 59px;
+    padding: 19px 20px 22px;
+    width: 450px;
+    display: block;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    border: 1px solid #1BFF07;
+    color: #000000;
+    background-color: #1BFF07;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    transition: all .2s ease;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+.contacts-form__btn:focus {
+    outline: none;
+}
+
+.contacts-form__btn:active {
+    color: #1BFF07;
+    background-color: transparent;
+}
+
+
+/* media queries */
+
+@media (hover: hover) {
+    input:-webkit-autofill:hover {
+        transition: background-color 5000s ease-in-out 0s;
+        -webkit-text-fill-color: #ffffff !important;
+        caret-color: #ffffff;
+    }
+    .contacts-form__btn:hover {
+        color: #1BFF07;
+        background-color: transparent;
+    }
+}
+
+@media (max-width: 961px) {
+    .contacts {
+        margin-bottom: 7px;
+        padding-top: 50px;
+        height: 484px;
+        border-radius: 20px;
+    }
+    .contacts__content {
+        padding-left: 38px;
+        /* width: 383px; */
+        width: 421px;
+    }
+    .contacts__title {
+        margin-bottom: 40px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .contacts-form__input {
+        margin-bottom: 17px;
+        padding: 10px 24px 10px 24px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .contacts-form__btn {
+        margin-top: 42px;
+        padding: 13px 14px;
+        width: 304px;
+        border-radius: 7px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+
+@media (max-width: 767px) {}
+
+@media (max-width: 550px) {
+    .contacts {
+        margin-bottom: 0;
+        height: 428px;
+        border-radius: 0;
+        background-image: none;
+    }
+    .contacts__content {
+        width: 100%;
+        padding-left: 0px;
+        background-color: transparent;
+    }
+    .contacts__title {
+        max-width: 310px;
+        font-size: 35px;
+        line-height: 37px;
+    }
+    .contacts-form__input {
+        margin-bottom: 15px;
+        padding: 9px 18px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .contacts-form__btn {
+        margin-top: 40px;
+        padding: 11px 49px;
+        width: 100%;
+        border-radius: 6px;
+        font-size: 15px;
+        line-height: 19px;
+    }
+}
+
+@media (max-width: 420px) {
+    .contacts__content {
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    .contacts__title {
+        max-width: 100%;
+        font-size: 28px;
+        line-height: 34px;
+    }
+}
